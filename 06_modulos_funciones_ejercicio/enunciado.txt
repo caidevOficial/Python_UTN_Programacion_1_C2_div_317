@@ -1,0 +1,17 @@
+Crear una aplicacion "CalcUTN" la cual tenga un menú que sirva para acceder a cualquier opción que elija el usuario.
+
+Las opciones del menú deben ser:
+
+1 - Sumar
+2 - Restar
+3 - Multiplicar
+4 - Dividir
+5 - Potencia
+6 - Saber numero primo
+7 - Numeros primos hasta
+8 - Salir
+
+Al temrinar la ejecución de alguna acción, la aplicación debe volver a menú principal
+para darle la oportunidad al ususario de elegir otra opción o salir.
+
+IMPORTANTE: Usa modulos y funciones para resolverlo.
