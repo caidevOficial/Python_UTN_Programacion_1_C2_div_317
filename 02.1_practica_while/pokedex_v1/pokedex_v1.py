@@ -118,6 +118,7 @@ class App(customtkinter.CTk):
                    tipo_elemento != 'Electrico' and 
                    tipo_elemento != 'Tierra'):
                 tipo_elemento = input('Ingrese un elemento entre (Agua, Tierra, Psiquico, Fuego, Electrico): ')
+                tipo_elemento = tipo_elemento.lower()
 
             poder = -1
             while poder > 200 or poder < 50:
@@ -144,7 +145,7 @@ class App(customtkinter.CTk):
 
             suma_poderes += poder
             
-            if tipo_elemento == 'Fuego':
+            if tipo_elemento == 'fuego':
                 cantidad_fuego += 1
         
         
