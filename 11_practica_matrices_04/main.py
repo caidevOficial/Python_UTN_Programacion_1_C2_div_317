@@ -53,6 +53,15 @@ def filtrar_video(matriz: list[list], tipo_video: str='En Vivo'):
 # print(filtrar_video(matriz_lk, tipo_video='En Vivo'))
 
 def filtrar_2(matriz: list[list], tipo_video: str='En Vivo'):
+    """La funcion hace tal cosa
+
+    Args:
+        matriz (list[list]): Es la matriz de datos
+        tipo_video (str, optional): Es una lista de tal cosa.... Defaults to 'En Vivo'.
+
+    Returns:
+        None: No tiene retorno
+    """
     matriz_filtrada = [
         [],[],[],[]
     ]
@@ -79,7 +88,6 @@ def filtrar_2(matriz: list[list], tipo_video: str='En Vivo'):
 # print(filtrar_2(matriz_lk, tipo_video='Video Oficial'))
 
 def mostrar_cantidad_de_videos(matriz: list[list], tipo_video: list = ['En Vivo']):
-
     existencias = 0
 
     for tipo in tipo_video:
@@ -232,6 +240,146 @@ def ordenar_personalizado(matriz: list[list]):
     mostrar_datos(matriz_auxiliar)
 
 
+def validar_numero(num_min: int, num_max: int, dato_a_validar: str = 'Likes') -> int:
+    num_str = input(f'Ingrese la cantidad de {dato_a_validar} [{num_min} - {num_max}]: ')
 
-ordenar_personalizado(matriz_lk)
+    if not num_str.isdigit() or not (num_min <= int(num_str) <= num_max):
+        print(f'Numero incorrecta, ingrese un numero entre [{num_min} - {num_max}]:')
+        num_str = validar_numero(num_min, num_max)
 
+    numero = int(num_str)
+    return numero
+
+def validar_texto(dato_a_validar: str) -> str:
+    texto = input(f'Ingrese un {dato_a_validar}: ')
+    
+    if texto == '':
+        print('ERROR: El texto debe tener al menos un caracter alfabetico.')
+        texto = validar_texto(dato_a_validar)
+
+    return texto
+
+"""
+matriz_lk = [
+    titulos_lk,
+    duraciones_lk,
+    vistas_lk,
+    likes_lk
+]
+"""
+def agregar_nuevo_registro(matriz: list[list]):
+    lista_datos = [
+        validar_texto(dato_a_validar='Titulo'),
+        validar_numero(num_min=0, num_max=5000, dato_a_validar='Duracion'),
+        validar_numero(num_min=0, num_max=100000, dato_a_validar='Vistas'),
+        validar_numero(num_min=0, num_max=50000, dato_a_validar='Likes')
+    ]
+
+    for indice_fila in range(len(matriz)):
+        matriz[indice_fila].append(lista_datos[indice_fila])
+
+
+
+# agregar_nuevo_registro(matriz_lk)
+# ordenar_personalizado(matriz_lk)
+
+
+def obtener_promedio(matriz: list[list], indice_a_buscar: int) -> float:
+
+    suma = 0
+    cantidad = len(matriz[indice_a_buscar])
+
+    for numero in matriz[indice_a_buscar]:
+        suma += numero
+    
+    promedio = suma / cantidad
+    return promedio
+
+def filtrar_video_por_valor(matriz: list[list], indice_fila: int, valor: float, tipo_dato: str = 'Numero'):
+    matriz_filtrada = [
+        [],[],[],[]
+    ]
+
+    for indice_columna in range(len(matriz[0])):
+        if (tipo_dato == 'Numero' and matriz[indice_fila][indice_columna] < valor) or\
+            tipo_dato == 'Texto' and len(matriz[indice_fila][indice_columna]) < valor:
+            obtener_datos_filtrados(matriz, matriz_filtrada, indice_columna)
+            
+    return matriz_filtrada
+
+def filtrar_menos_exitosos(matriz: list[list]):
+    promedio_likes = obtener_promedio(matriz, mapear_valor('likes'))
+    promedio_vistas = obtener_promedio(matriz, mapear_valor('vistas'))
+
+    matriz_filtrada = filtrar_video_por_valor(matriz, mapear_valor('likes'), promedio_likes, tipo_dato='Numero')
+    matriz_filtrada = filtrar_video_por_valor(matriz_filtrada, mapear_valor('vistas'), promedio_vistas, tipo_dato='Numero')
+    matriz_filtrada = filtrar_video_por_valor(matriz_filtrada, mapear_valor('titulos'), 40, tipo_dato='Texto')
+
+    print(f'El promedio de vistas es: {promedio_vistas:.2f} | El promedio de likes es: {promedio_likes:.2f}')
+    mostrar_datos(matriz_filtrada)
+
+# filtrar_menos_exitosos(matriz_lk)
+
+"""
+Filtrar One Hit Wonder: Mostrar la info del video que tenga 
+mejor promedio de la audiencia [obtenido de la ecuación: (likes + vistas) / 2].
+"""
+
+def calcular_promedio_ohw(matriz: list[list], indice_col: int) -> float:
+    likes = matriz[mapear_valor('likes')][indice_col]
+    vistas = matriz[mapear_valor('vistas')][indice_col]
+    promedio = (likes + vistas) / 2
+    return promedio
+
+def obtener_max_promedio_ohw(matriz: list[list]) -> float:
+    promedio_ohw = 0
+    cant_col = len(matriz[0])
+    for indice_col in range(cant_col):
+        
+        promedio = calcular_promedio_ohw(matriz, indice_col)
+        
+        if promedio > promedio_ohw:
+            promedio_ohw = promedio
+    return promedio_ohw
+
+def obtener_indices_ohw(matriz: list[list]) -> list[int]:
+    promedio_ohw = obtener_max_promedio_ohw(matriz)
+
+    print(f'El promedio mas alto de OHW es: {promedio_ohw}')
+    cant_col = len(matriz[0])
+    lista_indices = []
+
+    for indice_col in range(cant_col):
+        
+        promedio = calcular_promedio_ohw(matriz, indice_col)
+        
+        if promedio == promedio_ohw:
+            lista_indices.append(indice_col)
+
+    return lista_indices
+
+def filtrar_matriz_ohw(matriz: list[list], indices: list[int]):
+    matriz_aux = [
+        [],[],[],[]
+    ]
+    
+    for indice_col in indices:
+        for indice_fila in range(len(matriz)):
+            matriz_aux[indice_fila].append(
+                matriz[indice_fila][indice_col]
+            )
+
+    return matriz_aux
+
+def obtener_videos_ohw(matriz: list[list]):
+    lista_indices = obtener_indices_ohw(matriz)
+    matriz_filtrada = filtrar_matriz_ohw(matriz, lista_indices)
+    return matriz_filtrada
+
+def mostrar_ohw(matriz: list[list]):
+
+    matriz_filtrada = obtener_videos_ohw(matriz)
+
+    mostrar_datos(matriz_filtrada)
+
+mostrar_ohw(matriz_lk)

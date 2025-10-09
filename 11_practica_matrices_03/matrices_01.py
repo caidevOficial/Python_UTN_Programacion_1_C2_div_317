@@ -179,5 +179,35 @@ def trasponer_y_ordenar(matriz: list[list]):
     # mostrar_datos(matriz_t)
     mostrar_datos_t(matriz_t)
 
-trasponer_y_ordenar(matriz_paulina)
+# trasponer_y_ordenar(matriz_paulina)
 
+"""
+Saiyan: poder 50
+Saiyan: poder 70
+Saiyan: poder 45
+Humano: poder 70
+Humano: poder 90
+Humano: poder 30
+Demonio: poder 40
+"""
+
+frutas = [
+    "manzana", "platano", "manzana", "avocado", "kiwi"
+]
+
+frutas.sort(reverse=True)
+# frutas.reverse()
+
+print(frutas)
+# lista_indices = []
+# for fruta in frutas:
+#     indice = frutas.index(fruta)
+#     if indice not in lista_indices:
+#         lista_indices.append(indice)
+#     else:
+#         indice_inicio = lista_indices[-1] + 1
+#         # slice_lista = frutas[indice_inicio:]
+#         indice = frutas.index(fruta, indice_inicio)
+#         lista_indices.append(indice)
+
+#     print(f'Elemento: {fruta} - {indice}')
