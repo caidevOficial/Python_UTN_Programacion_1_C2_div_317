@@ -69,7 +69,7 @@ def mostrar_info_completa_video(caracteres: int, video: dict):
         colab_truncado = f'{colaboradores_normalizados[:12]}...'
     else:
         colab_truncado = colaboradores_normalizados
-    datos = f'{video.get("Tema"):{caracteres}} | {colab_truncado:15} | {video.get("Duracion"):03} | {video.get('Vistas'):010}'
+    datos = f'{video.get("Tema"):{caracteres}} | {colab_truncado:15} | {video.get("Duracion"):03} | {video.get('Vistas'):010} | {str(video.get("Fecha lanzamiento"))}'
     print(datos)
 
 def mostrar_temas(videos: list[dict]):
@@ -207,10 +207,52 @@ def mostrar_videos_con_colab(videos: list[dict]):
     mostrar_info_completa(coincidencias)
 
 
+def mapear_mes(mes: str) -> int:
+    month_map = {
+        'enero': 1,
+        'febrero': 2,
+        'marzo': 3,
+        'abril': 4,
+        'mayo': 5,
+        'junio': 6,
+        'julio': 7,
+        'agosto': 8,
+        'septiembre': 9,
+        'octubre': 10,
+        'noviembre': 11,
+        'diciembre': 12
+    }
+    
+    return month_map.get(mes, -1)
+        
+def pedir_mes() -> int:
+
+    mes_nombre = input('Escriba un mes para obtener las canciones lanzadas en dicho mes: ').lower()
+    mes_numero = mapear_mes(mes_nombre)
+
+    if mes_numero == -1:
+        print(f'Error, el mes {mes_nombre} no existe.')
+        mes_numero = pedir_mes()
+
+    return mes_numero
+
+def buscar_videos_coincidencia_mes(videos: list[dict], key: str, valor: int) -> list[dict]:
+    coincidencias = []
+
+    for video in videos:
+        if valor == video.get(key).month:
+            coincidencias.append(video)
+    return coincidencias
+
+def filtrar_videos_de_mes(videos: list[dict]):
+    mes_numerico = pedir_mes()
+    coincidencias = buscar_videos_coincidencia_mes(videos=videos, key='Fecha lanzamiento', valor=mes_numerico)
+    mostrar_info_completa(coincidencias)
 
 
 
+if __name__ == '__main__':
+    fecha = datetime.datetime.strptime('2025-10-15', '%Y-%m-%d')
 
-# fecha = datetime.datetime.strptime('2025-10-15', '%Y-%m-%d')
-
-# fecha.month
+    
+    print(fecha.month)

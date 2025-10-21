@@ -4,7 +4,7 @@ import os
 from functions import (
     normalizar_datos, mostrar_temas, ordenar_quick_por,
     mostrar_promedio, mostrar_max_min, mostrar_coincidencias,
-    mostrar_videos_con_colab
+    mostrar_videos_con_colab, filtrar_videos_de_mes
 )
 
 
@@ -36,7 +36,7 @@ def application(songs: list[dict]):
             case 8:
                 mostrar_videos_con_colab(lista_normalizada)
             case 9:
-                pass
+                filtrar_videos_de_mes(lista_normalizada)
             case 10:
                 running = False
                 print('Cerrando App')
