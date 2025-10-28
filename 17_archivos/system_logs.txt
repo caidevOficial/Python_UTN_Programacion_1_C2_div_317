@@ -1,0 +1,7 @@
+2025-10-27 -> Fallo la base de datos
+2025-10-27 -> Fallo la base de datos
+2025-10-27 -> Fallo la base de datos
+2025-10-27 -> Fallo la lectura de archivos
+2025-10-27 20:39:24.833099 -> Fallo la lectura de archivos
+2025-10-27 20:39:43.127037 -> Fallo la lectura de archivos
+2025-10-27 20:39:47.425769 -> Fallo la lectura de archivos

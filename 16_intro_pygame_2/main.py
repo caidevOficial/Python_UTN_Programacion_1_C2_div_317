@@ -5,4 +5,8 @@ from utn_fra.datasets import (
 
 if __name__ == '__main__':
     
-    run_game(game_name='Visualizador de heroes', heroes=lista_diccionario_heroes)
+    # run_game(game_name='Visualizador de heroes', heroes=lista_diccionario_heroes)
+    from pygame.colordict import THECOLORS
+
+    for color, value in THECOLORS.items():
+        print(f'Color texto: {color} -> Valor en tupla  RGBA: {value}')

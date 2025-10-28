@@ -1,0 +1,156 @@
+id,nombre,identidad,alias,inteligencia,fuerza,velocidad,poder,genero,raza,altura_mts,peso_kg,color_ojos,color_pelo,alineacion,empresa
+3,Abin Sur,Desconocido,Lagzia,50,90,53,99,Masculino,Ungaran,1.85,90,Blue,No Hair,good,DC Comics
+8,Adam Strange,Desconocido,Savior of Rann,69,10,33,37,Masculino,Human,1.85,88,Blue,Blond,good,DC Comics
+14,Alan Scott,Desconocido,Green Lantern,63,80,23,100,Masculino,-,1.8,90,Blue,Blond,good,DC Comics
+17,Alfred Pennyworth,Desconocido,Alfred Beagle,63,10,17,7,Masculino,Human,1.78,72,Blue,Black,good,DC Comics
+20,Amazo,Desconocido,Hourmazo,63,100,83,100,Masculino,Android,2.57,173,Red,-,bad,DC Comics
+28,Animal Man,Desconocido,The Human Zoo; A-Man; The Man with Animal Powers,56,48,47,73,Masculino,Human,1.83,83,Blue,Blond,good,DC Comics
+32,Anti-Monitor,Desconocido,Monitor,88,100,50,100,Masculino,God / Eternal,61.0,0,Yellow,No Hair,bad,DC Comics
+36,Aquababy,Desconocido,No Tiene,10,16,12,37,Masculino,-,0.0,0,Blue,Blond,good,DC Comics
+37,Aqualad,Desconocido,No Tiene,63,44,42,89,Masculino,Atlantean,1.78,106,Blue,Black,good,DC Comics
+38,Aquaman,Desconocido,Water Wraith,81,85,79,100,Masculino,Atlantean,1.85,146,Blue,Blond,good,DC Comics
+49,Atlas,Desconocido,Atlas the Untamed,63,100,42,27,Masculino,God / Eternal,1.98,126,Blue,Brown,bad,DC Comics
+52,Atom Girl,Desconocido,Shrinking Violet,38,10,23,38,Femenino,-,1.68,54,Black,Black,good,DC Comics
+53,Atom II,Desconocido,the World's Smallest Hero,88,10,33,40,Masculino,Human,1.83,81,Brown,Auburn,good,DC Comics
+58,Azrael,Desconocido,Bat-Devil; Bat-Ghost,63,18,17,35,Masculino,Human,0.0,0,Brown,Black,good,DC Comics
+60,Bane,Desconocido,No Tiene,88,38,23,51,Masculino,Human,2.03,180,-,-,bad,DC Comics
+66,Batgirl IV,Desconocido,Kasumi,69,12,27,46,Femenino,Human,1.65,52,Green,Black,good,DC Comics
+69,Batman,Desconocido,Batman Beyond,81,40,29,63,Masculino,Human,1.78,77,Blue,Black,good,DC Comics
+70,Batman,Desconocido,Insider,100,26,27,47,Masculino,Human,1.88,95,blue,black,good,DC Comics
+73,Batwoman V,Desconocido,No Tiene,81,8,29,27,Femenino,Human,1.78,0,Green,Red,good,DC Comics
+76,Beast Boy,Desconocido,Tork,50,28,50,79,Masculino,Human,1.73,68,Green,Green,good,DC Comics
+78,Ben 10,Desconocido,Ben Ten,10,7,8,90,Masculino,-,0.0,0,-,-,good,DC Comics
+81,Big Barda,Desconocido,the Strongest Woman in the World,88,100,79,100,Femenino,New God,1.88,135,Blue,Black,bad,DC Comics
+93,Bizarro,Desconocido,No Tiene,38,95,100,100,Masculino,Bizarro,1.91,155,Black,Black,neutral,DC Comics
+95,Black Adam,Desconocido,Mighty Adam,88,100,92,100,Masculino,-,1.91,113,Brown,Black,bad,DC Comics
+97,Black Canary,Desconocido,Dinah Laurel Lance Queen; Dinah Laurel Lance-Windrow,63,8,33,52,Femenino,Metahuman,1.7,59,Blue,Blond,good,DC Comics
+98,Black Canary,Desconocido,No Tiene,63,8,33,45,Femenino,Human,1.65,58,Blue,Blond,good,DC Comics
+100,Black Flash,Desconocido,Death Flash,44,10,100,100,Masculino,God / Eternal,0.0,0,-,-,neutral,DC Comics
+103,Black Lightning,Desconocido,No Tiene,50,11,53,70,Masculino,-,1.85,90,Brown,No Hair,good,DC Comics
+105,Black Manta,Desconocido,Yellow Lantern,75,28,50,76,Masculino,Human,1.88,92,Black,No Hair,bad,DC Comics
+126,Blue Beetle III,Desconocido,Scooter,50,34,58,100,Masculino,Human,0.0,0,Brown,Black,good,DC Comics
+136,Brainiac,Desconocido,Milton Fine,100,95,63,60,Masculino,Android,1.98,135,Green,No Hair,bad,DC Comics
+137,Brainiac 5,Desconocido,No Tiene,100,10,23,60,Masculino,-,1.7,61,Green,Blond,good,DC Comics
+142,Bumblebee,Desconocido,No Tiene,63,28,25,47,Femenino,Human,1.7,59,Brown,Black,good,DC Comics
+144,Bushido,Desconocido,No Tiene,38,10,8,19,Masculino,Human,0.0,0,-,-,good,DC Comics
+150,Captain Atom,Desconocido,Allen Adam,81,93,83,100,Masculino,Human / Radiation,1.93,90,Blue,Silver,good,DC Comics
+152,Captain Cold,Desconocido,Leonard Snart,50,10,17,28,Masculino,Human,0.0,0,Brown,Brown,neutral,DC Comics
+156,Captain Marvel,Desconocido,Captain Thunder,88,100,88,100,Masculino,Human,1.93,101,Blue,Black,good,DC Comics
+158,Captain Marvel II,Desconocido,Captain Marvel Jr.,75,81,27,34,Masculino,Human,1.75,74,Blue,Black,good,DC Comics
+165,Catwoman,Desconocido,Madame Moderne,69,11,33,27,Femenino,Human,1.75,61,Green,Black,good,DC Comics
+170,Chameleon,Desconocido,Dr. Henry Pym,88,10,12,28,Masculino,-,0.0,0,-,-,bad,DC Comics
+172,Cheetah,Desconocido,The Cheetah,38,8,42,32,Femenino,Human,1.63,50,Green,Blond,bad,DC Comics
+174,Cheetah III,Desconocido,Sabrina Ballesteros,88,100,88,78,Femenino,Human,1.75,54,Brown,Brown,bad,DC Comics
+177,Citizen Steel,Desconocido,Uncle Nate,50,95,33,23,Masculino,Human,1.83,170,Green,Red,good,DC Comics
+181,Clock King,Desconocido,Tempus Fugit,75,10,17,7,Masculino,Human,1.78,78,Blue,Black,bad,DC Comics
+194,Cyborg,Desconocido,Cyberion Technis,75,53,42,71,Masculino,Cyborg,1.98,173,Brown,Black,good,DC Comics
+195,Cyborg Superman,Desconocido,Alpha-Prime of the Alpha Lanterns,75,93,92,100,Masculino,Cyborg,0.0,0,Blue,Black,bad,DC Comics
+204,Darkseid,Desconocido,Dark God,88,100,83,100,Masculino,New God,2.67,817,Red,No Hair,bad,DC Comics
+212,Deadman,Desconocido,No Tiene,50,10,33,100,Masculino,Human,1.83,90,Blue,Black,good,DC Comics
+214,Deadshot,Desconocido,Orlando Furioso,50,10,23,55,Masculino,Human,1.85,91,Brown,Brown,bad,DC Comics
+216,Deathstroke,Desconocido,Batman,75,30,35,47,Masculino,Human,1.93,101,Blue,White,neutral,DC Comics
+224,Doctor Fate,Desconocido,Nabu,81,16,25,100,Masculino,Human,1.88,89,Blue,Blond,good,DC Comics
+230,Doomsday,Desconocido,The Ultimate Lifeform,75,100,67,100,Masculino,Alien,2.44,412,Red,White,bad,DC Comics
+233,Dr Manhattan,Desconocido,Jon Osterman,88,100,42,100,Masculino,Human / Cosmic,0.0,0,White,No Hair,good,DC Comics
+240,Elongated Man,Desconocido,Alvin Burgson; Molder,75,10,33,44,Masculino,-,1.85,80,Blue,Red,good,DC Comics
+242,Enchantress,Desconocido,Soulsinger,63,14,25,100,Femenino,Human,1.68,57,Blue,Blond,good,DC Comics
+246,Etrigan,Desconocido,Demon,50,85,17,100,Masculino,Demon,1.93,203,Red,No Hair,neutral,DC Comics
+253,Faora,Desconocido,Katie,88,95,75,98,Femenino,Kryptonian,0.0,0,-,-,bad,DC Comics
+260,Firestorm,Desconocido,The Nuclear Man,50,53,58,100,Masculino,-,0.0,0,Brown,Black,good,DC Comics
+261,Firestorm,Desconocido,Roy,38,80,58,100,Masculino,Human,1.88,91,Blue,Auburn,good,DC Comics
+263,Flash,Desconocido,Jay Garrick,63,10,100,68,Masculino,Human,1.8,81,Blue,Brown / White,good,DC Comics
+278,General Zod,Desconocido,Dru-Zod (possible first name),94,100,96,100,Masculino,Kryptonian,0.0,0,Black,Black,bad,DC Comics
+284,Giganta,Desconocido,No Tiene,81,89,23,32,Femenino,-,62.5,630,Green,Red,bad,DC Comics
+288,Gog,Desconocido,Nephut-Sha,50,34,47,39,Masculino,-,0.0,0,-,-,bad,DC Comics
+294,Gorilla Grodd,Desconocido,King Grodd,81,53,33,100,Masculino,Gorilla,1.98,270,Yellow,Black,bad,DC Comics
+298,Green Arrow,Desconocido,Battling Bowman,81,12,35,39,Masculino,Human,1.88,88,Green,Blond,good,DC Comics
+305,Guy Gardner,Desconocido,Green Lantern,38,90,53,100,Masculino,Human-Vuldarian,1.88,95,Blue,Red,good,DC Comics
+306,Hal Jordan,Desconocido,Parallax,69,90,75,100,Masculino,Human,1.88,90,Brown,Brown,good,DC Comics
+309,Harley Quinn,Desconocido,Elise Archer,88,12,33,55,Femenino,Human,1.7,63,Blue,Blond,bad,DC Comics
+312,Hawk,Desconocido,Monarch,38,38,35,43,Masculino,-,1.85,89,Red,Brown,good,DC Comics
+315,Hawkgirl,Desconocido,Kate Manser; Shiera Sanders,50,28,53,96,Femenino,-,1.75,61,Green,Red,good,DC Comics
+320,Heat Wave,Desconocido,Rory Calhoun,38,10,17,27,Masculino,Human,1.8,81,Blue,No Hair,bad,DC Comics
+342,Indigo,Desconocido,Indigo-1,75,63,50,100,Femenino,Alien,0.0,0,-,Purple,neutral,DC Comics
+348,Isis,Desconocido,No Tiene,75,48,75,50,Femenino,-,0.0,0,-,-,good,DC Comics
+360,Jessica Cruz,Desconocido,Green Lantern,56,90,46,100,Femenino,Human,0.0,0,Green,Brown,good,DC Comics
+367,John Constantine,Desconocido,Hellblazer,63,10,8,54,Masculino,Human,1.83,0,Blue,Blond,good,DC Comics
+370,Joker,Desconocido,Jack Napier,100,10,12,43,Masculino,Human,1.96,86,Green,Green,bad,DC Comics
+382,Kevin 11,Desconocido,Kevin Ethan,25,7,12,100,Masculino,Human,0.0,0,-,Black,good,DC Comics
+384,Kid Flash,Desconocido,Kid Lantern,25,4,92,20,Masculino,Human,0.0,0,Green,Red,good,DC Comics
+386,Killer Croc,Desconocido,No Tiene,19,53,35,53,Masculino,Metahuman,2.44,356,Red,No Hair,bad,DC Comics
+387,Killer Frost,Desconocido,No Tiene,88,10,13,59,Femenino,Human,0.0,0,Blue,Blond,bad,DC Comics
+388,Kilowog,Desconocido,Lantern,81,90,53,100,Masculino,Bolovaxian,2.34,324,Red,No Hair,good,DC Comics
+390,King Shark,Desconocido,No Tiene,50,88,50,86,Masculino,Animal,0.0,0,Black,No Hair,bad,DC Comics
+396,Krypto,Desconocido,No Tiene,9,80,100,82,Masculino,Kryptonian,0.64,18,Blue,White,good,DC Comics
+397,Kyle Rayner,Desconocido,Honor Guard,69,90,50,100,Masculino,Human,1.8,79,Green,Black,good,DC Comics
+405,Lex Luthor,Desconocido,No Tiene,100,53,25,68,Masculino,Human,1.88,95,Green,No Hair,bad,DC Comics
+406,Light Lass,Desconocido,No Tiene,38,10,35,67,Femenino,-,1.65,54,Blue,Red,good,DC Comics
+407,Lightning Lad,Desconocido,Live Wire,38,10,23,60,Masculino,-,1.55,65,Blue,Red,good,DC Comics
+408,Lightning Lord,Desconocido,No Tiene,44,10,23,66,Masculino,-,1.91,95,Blue,Red,bad,DC Comics
+413,Lobo,Desconocido,Popebo; He-Who-Devours-Your-Entrails-And-Thoroughly-Enjoys-It,94,100,54,100,Masculino,Czarnian,2.29,288,Red,Black,neutral,DC Comics
+424,Magog,Desconocido,No Tiene,50,48,23,66,Masculino,-,0.0,0,Blue,Blond,good,DC Comics
+427,Man-Bat,Desconocido,Kirk Langstrom,38,18,50,33,Masculino,Human,0.0,0,Brown,Brown,neutral,DC Comics
+432,Martian Manhunter,Desconocido,many others,100,95,92,100,Masculino,Martian,2.01,135,Red,No Hair,good,DC Comics
+436,Match,Desconocido,Superboy,75,95,83,100,Masculino,-,0.0,0,Black,Black,bad,DC Comics
+439,Maxima,Desconocido,Empress of the Almeracian Empire,75,90,35,81,Femenino,-,1.8,72,Brown,Red,bad,DC Comics
+444,Mera,Desconocido,Water-Woman,56,62,79,92,Femenino,Atlantean,1.75,72,Blue,Red,good,DC Comics
+445,Metallo,Desconocido,No Tiene,75,53,23,86,Masculino,Android,1.96,90,Green,Brown,bad,DC Comics
+448,Metron,Desconocido,No Tiene,88,10,47,100,Masculino,-,1.85,86,Blue,Black,good,DC Comics
+451,Micro Lad,Desconocido,Colossal Boy (mostly known as Colossal Boy,38,28,27,44,Masculino,-,1.83,77,Grey,Brown,good,DC Comics
+455,Miss Martian,Desconocido,Megan Morse; M'Gann M'Orzz (alternate spelling); Martian Girlhunter; Martian Manhunter (Titans Tomorrow alias),63,85,58,100,Femenino,-,1.78,61,Red,Red,good,DC Comics
+457,Mister Freeze,Desconocido,Doctor Schimmell,75,32,12,37,Masculino,Human,1.83,86,-,-,bad,DC Comics
+459,Mister Mxyzptlk,Desconocido,No Tiene,100,85,100,100,Masculino,God / Eternal,0.0,0,-,-,bad,DC Comics
+461,Mister Zsasz,Desconocido,Mr Zsasz,88,22,33,18,Masculino,Human,0.0,0,Blue,Blond,bad,DC Comics
+499,Offspring,Desconocido,Plastic Lad,50,10,35,100,Masculino,-,0.0,0,-,-,good,DC Comics
+506,Osiris,Desconocido,No Tiene,75,85,60,65,Masculino,-,0.0,0,Brown,Brown,good,DC Comics
+508,Ozymandias,Desconocido,The World's Smartest Man,100,18,33,49,Masculino,Human,0.0,0,Blue,Blond,bad,DC Comics
+509,Parademon,Desconocido,No Tiene,9,28,17,53,No-Binario,Parademon,0.0,0,-,-,bad,DC Comics
+514,Penguin,Desconocido,No Tiene,75,10,12,30,Masculino,Human,1.57,79,Blue,Black,bad,DC Comics
+516,Phantom Girl,Desconocido,No Tiene,38,10,23,53,Femenino,-,1.68,54,Blue,Black,good,DC Comics
+520,Plastic Man,Desconocido,No Tiene,50,63,23,100,Masculino,Human,1.85,80,Blue,Black,good,DC Comics
+521,Plastique,Desconocido,No Tiene,50,10,23,60,Femenino,-,1.68,55,Blue,Red,bad,DC Comics
+522,Poison Ivy,Desconocido,No Tiene,81,14,21,100,Femenino,Human,1.68,50,Green,Red,bad,DC Comics
+524,Power Girl,Desconocido,Karen Starr,94,100,100,100,Femenino,Kryptonian,1.8,81,blue,blond,good,DC Comics
+528,Professor Zoom,Desconocido,Mister Zyx,94,10,100,83,Masculino,Human,1.8,81,Blue,Strawberry Blond,bad,DC Comics
+535,Question,Desconocido,Vic Sage,81,14,27,20,Masculino,Human,1.88,83,Blue,Blond,good,DC Comics
+538,Ra's Al Ghul,Desconocido,Demon's Head,100,28,32,27,Masculino,Human,1.93,97,Green,Grey,bad,DC Comics
+542,Raven,Desconocido,Pride,50,10,29,84,Femenino,Human,1.65,50,Indigo,Black,neutral,DC Comics
+543,Ray,Desconocido,No Tiene,50,10,92,100,Masculino,Human,1.78,70,Green,Red,good,DC Comics
+545,Red Arrow,Desconocido,Arsenal,63,16,25,23,Masculino,Human,1.8,83,Green,Red,good,DC Comics
+551,Red Tornado,Desconocido,Tornado Man Dreaming,75,38,67,100,Masculino,Android,1.85,146,Green,No Hair,good,DC Comics
+557,Rick Flag,Desconocido,No Tiene,88,11,23,19,Masculino,-,1.85,85,Blue,Brown,bad,DC Comics
+558,Riddler,Desconocido,Edward E. Nigma,100,10,12,10,Masculino,-,0.0,0,-,-,bad,DC Comics
+559,Rip Hunter,Desconocido,Carter,100,8,8,100,Masculino,Human,0.0,0,Blue,Blond,good,DC Comics
+564,Robin V,Desconocido,Batman,69,8,33,29,Masculino,Human,1.37,38,Blue,Black,good,DC Comics
+565,Robin VI,Desconocido,No Tiene,50,8,25,17,Femenino,Human,0.0,0,Green,Red,neutral,DC Comics
+569,Rorschach,Desconocido,No Tiene,75,10,29,23,Masculino,Human,1.68,63,Blue,Red,good,DC Comics
+576,Scarecrow,Desconocido,No Tiene,81,10,12,48,Masculino,Human,1.83,63,Blue,Brown,bad,DC Comics
+585,Shadow Lass,Desconocido,No Tiene,63,10,67,79,Femenino,Talokite,1.73,54,Black,Black,good,DC Comics
+600,Simon Baz,Desconocido,Green Lantern,56,90,42,100,Masculino,Human,0.0,0,Bown,Black,good,DC Comics
+601,Sinestro,Desconocido,Indigo Lantern,75,85,53,100,Masculino,Korugaran,2.01,92,Black,Black,neutral,DC Comics
+602,Siren,Desconocido,No Tiene,56,62,79,92,Femenino,Atlantean,1.75,72,Blue,Purple,bad,DC Comics
+608,Sobek,Desconocido,Sobek the Talking Crocodile; The Unknown in Formless Time Before Time; Famine,50,34,23,20,Masculino,-,0.0,0,White,No Hair,good,DC Comics
+609,Solomon Grundy,Desconocido,Marshland Monster,9,93,13,92,Masculino,Zombie,2.79,437,Black,White,bad,DC Comics
+611,Space Ghost,Desconocido,Ted Ghostel,38,18,33,95,Masculino,Human,1.88,113,-,-,good,DC Comics
+615,Speedy,Desconocido,Mia,50,6,33,26,Femenino,Human,0.0,0,Green,Brown,good,DC Comics
+632,Starfire,Desconocido,Princess Koriand'r,50,80,33,59,Femenino,Tamaranean,1.93,71,Green,Auburn,good,DC Comics
+633,Stargirl,Desconocido,Stars,63,80,25,87,Femenino,Human,1.65,62,Blue,Blond,good,DC Comics
+634,Static,Desconocido,Virg,69,8,42,90,Masculino,Mutant,1.7,63,Brown,Black,good,DC Comics
+635,Steel,Desconocido,Man of Steel,81,82,53,64,Masculino,-,2.01,131,Brown,No Hair,good,DC Comics
+637,Steppenwolf,Desconocido,Steppenwulf,94,100,83,100,Masculino,New God,1.83,91,Red,Black,bad,DC Comics
+641,Superboy,Desconocido,Experiment 13; Superman; Project: Superman; Carl Krummett; Project: Lionel Luthor; The Metropolis Kid,75,95,83,95,Masculino,-,1.7,68,Blue,Black,good,DC Comics
+642,Superboy-Prime,Desconocido,Superman-Prime; Prime; Superboy; Clark Kent; Clarkie; Time Trapper,94,100,100,100,Masculino,Kryptonian,1.8,77,Blue,Black / Blue,bad,DC Comics
+643,Supergirl,Desconocido,Trinity Child,94,100,100,100,Femenino,Kryptonian,1.65,54,Blue,Blond,good,DC Comics
+645,Swamp Thing,Desconocido,Le Bon Gumbo,88,95,25,100,Masculino,God / Eternal,0.0,0,Red,No Hair,bad,DC Comics
+657,The Comedian,Desconocido,Eddie Blake,63,14,17,12,Masculino,Human,1.88,101,Brown,Black,neutral,DC Comics
+676,Triplicate Girl,Desconocido,Una,63,10,23,44,Femenino,-,1.68,59,Purple,Brown,good,DC Comics
+678,Two-Face,Desconocido,Apollo,88,10,12,9,Masculino,-,1.83,82,-,-,bad,DC Comics
+692,Vibe,Desconocido,No Tiene,50,10,17,99,Masculino,Human,1.78,71,Brown,Black,good,DC Comics
+699,Vixen,Desconocido,No Tiene,50,38,50,62,Femenino,Human,1.75,63,Amber,Black,good,DC Comics
+706,Warp,Desconocido,No Tiene,38,10,23,85,Masculino,-,1.73,67,Brown,Black,bad,DC Comics
+711,White Canary,Desconocido,Silk Sister,63,7,33,49,Femenino,Human,0.0,0,Brown,Black,bad,DC Comics
+713,Wildfire,Desconocido,ERG-1,50,32,23,77,Masculino,-,0.0,0,-,-,good,DC Comics
+718,Wonder Girl,Desconocido,Wonder Woman,75,90,25,39,Femenino,Demi-God,1.65,51,Blue,Blond,good,DC Comics
+720,Wonder Woman,Desconocido, Wondy,88,100,79,100,Femenino,Amazon,1.83,74,Blue,Black,good,DC Comics
+730,Zatanna,Desconocido,No Tiene,81,10,23,100,Femenino,Human,1.7,57,Blue,Black,good,DC Comics
+731,Zoom,Desconocido,No Tiene,50,10,100,100,Masculino,-,1.85,81,Red,Brown,bad,DC Comics

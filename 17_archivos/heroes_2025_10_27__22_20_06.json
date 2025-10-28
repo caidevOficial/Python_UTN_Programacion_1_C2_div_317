@@ -1,0 +1,40 @@
+{
+    "heroes": [
+        {
+            "id": "3",
+            "nombre": "Abin Sur",
+            "identidad": "Desconocido",
+            "alias": "Lagzia",
+            "inteligencia": "50",
+            "fuerza": "90",
+            "velocidad": "53",
+            "poder": "99",
+            "genero": "Masculino",
+            "raza": "Ungaran",
+            "altura_mts": "1.85",
+            "peso_kg": "90",
+            "color_ojos": "Blue",
+            "color_pelo": "No Hair",
+            "alineacion": "good",
+            "empresa\n": "DC Comics\n"
+        },
+        {
+            "id": "8",
+            "nombre": "Adam Strange",
+            "identidad": "Desconocido",
+            "alias": "Savior of Rann",
+            "inteligencia": "69",
+            "fuerza": "10",
+            "velocidad": "33",
+            "poder": "37",
+            "genero": "Masculino",
+            "raza": "Human",
+            "altura_mts": "1.85",
+            "peso_kg": "88",
+            "color_ojos": "Blue",
+            "color_pelo": "Blond",
+            "alineacion": "good",
+            "empresa\n": "DC Comics\n"
+        }
+    ]
+}
